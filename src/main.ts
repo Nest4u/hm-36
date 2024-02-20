@@ -15,8 +15,8 @@ console.log('#19. TypeScript homework example file')
  *
  */
 
-function sumArray(numbers: number[]): number {
-  return numbers.reduce((acc, current) => acc + current, 0)
+function sumArray() {
+  // code here
 }
 
 // Вивід до консолі для демонстрації
@@ -39,19 +39,10 @@ function sumArray(numbers: number[]): number {
  *
  */
 
-type User = {
-  name: string
-  age: number
-  isActive: boolean
-}
+type User = {}
 
-// Функція для генерації об'єкта типу User
-function createUser(name: string, age: number, isActive: boolean): User {
-  return {
-    name,
-    age,
-    isActive
-  }
+function createUser() {
+  // code here
 }
 
 // const newUser = createUser('Анна', 25, true)
@@ -72,18 +63,10 @@ function createUser(name: string, age: number, isActive: boolean): User {
  *
  */
 
-interface PersonInterface {
-  name: string
-  age: number
-  isActive: boolean
-}
+interface PersonInterface {}
 
-function createPerson(name: string, age: number, isActive: boolean): PersonInterface {
-  return {
-    name,
-    age,
-    isActive
-  }
+function createPerson() {
+  // code here
 }
 
 // const newPerson = createPerson('Олександр', 31, false)
